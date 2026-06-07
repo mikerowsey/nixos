@@ -14,5 +14,6 @@
     python313
     uv
     stow
+    cryptsetup
   ];
 }
