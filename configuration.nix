@@ -6,7 +6,7 @@
 
     ./modules/boot.nix
     ./modules/system.nix
-    ./modules/desktop.nix
+    # ./modules/desktop.nix
     ./modules/services.nix
     ./modules/users.nix
     ./modules/development.nix

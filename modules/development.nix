@@ -2,17 +2,16 @@
 
 {
   environment.systemPackages = with pkgs; [
-    neovim
-    wget
-    curl
     git
+    neovim
     tmux
-    starship
+    stow
     ripgrep
     fd
-    gcc
-    python313
-    uv
+    tree
+    jq
+    curl
+    wget
     stow
     cryptsetup
   ];
