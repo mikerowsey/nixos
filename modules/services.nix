@@ -6,10 +6,9 @@
     openFirewall = true;
   };
 
+  services.tailscale.enable = true;
   services.printing.enable = true;
-
   security.rtkit.enable = true;
-
   services.pulseaudio.enable = false;
 
   services.pipewire = {
