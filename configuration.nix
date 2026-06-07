@@ -11,6 +11,7 @@
     ./modules/users.nix
     ./modules/development.nix
     ./modules/docker.nix
+    ./modules/storage.nix
   ];
 
   networking.hostName = "nixos-btw";
