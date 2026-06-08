@@ -12,6 +12,7 @@
     ./modules/development.nix
     ./modules/docker.nix
     ./modules/storage.nix
+    ./modules/syncthing.nix
   ];
 
   networking.hostName = "nixos-btw";
